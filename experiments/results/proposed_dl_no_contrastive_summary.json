@@ -1,0 +1,162 @@
+{
+ "variant": "no_contrastive",
+ "epochs": 3,
+ "threshold": 0.29,
+ "best_eval_prauc": 0.9859401529707357,
+ "scenarios": {
+  "full": {
+   "accuracy": 0.9911,
+   "precision": 0.9009,
+   "recall": 0.989,
+   "f1": 0.9429,
+   "roc_auc": 0.9919,
+   "pr_auc": 0.8207,
+   "macro_f1": 0.969,
+   "mcc": 0.9392,
+   "balanced_acc": 0.9901
+  },
+  "missing_env_air": {
+   "accuracy": 0.9912,
+   "precision": 0.901,
+   "recall": 0.9903,
+   "f1": 0.9436,
+   "roc_auc": 0.9913,
+   "pr_auc": 0.8182,
+   "macro_f1": 0.9694,
+   "mcc": 0.94,
+   "balanced_acc": 0.9908
+  },
+  "missing_light": {
+   "accuracy": 0.9903,
+   "precision": 0.8984,
+   "recall": 0.9803,
+   "f1": 0.9376,
+   "roc_auc": 0.9904,
+   "pr_auc": 0.8148,
+   "macro_f1": 0.9661,
+   "mcc": 0.9334,
+   "balanced_acc": 0.9857
+  },
+  "missing_acoustic": {
+   "accuracy": 0.9911,
+   "precision": 0.9009,
+   "recall": 0.989,
+   "f1": 0.9429,
+   "roc_auc": 0.9915,
+   "pr_auc": 0.8166,
+   "macro_f1": 0.969,
+   "mcc": 0.9392,
+   "balanced_acc": 0.9901
+  },
+  "missing_elec_server": {
+   "accuracy": 0.9911,
+   "precision": 0.901,
+   "recall": 0.9896,
+   "f1": 0.9432,
+   "roc_auc": 0.9921,
+   "pr_auc": 0.8217,
+   "macro_f1": 0.9692,
+   "mcc": 0.9396,
+   "balanced_acc": 0.9904
+  },
+  "missing_elec_pfsense": {
+   "accuracy": 0.9911,
+   "precision": 0.901,
+   "recall": 0.99,
+   "f1": 0.9434,
+   "roc_auc": 0.9919,
+   "pr_auc": 0.8188,
+   "macro_f1": 0.9693,
+   "mcc": 0.9398,
+   "balanced_acc": 0.9906
+  },
+  "missing_elec_socket": {
+   "accuracy": 0.9912,
+   "precision": 0.901,
+   "recall": 0.9903,
+   "f1": 0.9436,
+   "roc_auc": 0.994,
+   "pr_auc": 0.8957,
+   "macro_f1": 0.9694,
+   "mcc": 0.94,
+   "balanced_acc": 0.9908
+  },
+  "missing_device_state": {
+   "accuracy": 0.9897,
+   "precision": 0.8854,
+   "recall": 0.9896,
+   "f1": 0.9346,
+   "roc_auc": 0.9904,
+   "pr_auc": 0.7625,
+   "macro_f1": 0.9645,
+   "mcc": 0.9307,
+   "balanced_acc": 0.9897
+  },
+  "random_dropout_10pct": {
+   "accuracy": 0.991,
+   "precision": 0.9008,
+   "recall": 0.9883,
+   "f1": 0.9425,
+   "roc_auc": 0.9919,
+   "pr_auc": 0.8257,
+   "macro_f1": 0.9688,
+   "mcc": 0.9388,
+   "balanced_acc": 0.9897
+  },
+  "random_dropout_30pct": {
+   "accuracy": 0.9909,
+   "precision": 0.9007,
+   "recall": 0.9865,
+   "f1": 0.9417,
+   "roc_auc": 0.9926,
+   "pr_auc": 0.8462,
+   "macro_f1": 0.9684,
+   "mcc": 0.9379,
+   "balanced_acc": 0.9889
+  },
+  "random_dropout_50pct": {
+   "accuracy": 0.9908,
+   "precision": 0.9003,
+   "recall": 0.9858,
+   "f1": 0.9412,
+   "roc_auc": 0.9921,
+   "pr_auc": 0.852,
+   "macro_f1": 0.9681,
+   "mcc": 0.9373,
+   "balanced_acc": 0.9885
+  },
+  "random_dropout_70pct": {
+   "accuracy": 0.9909,
+   "precision": 0.9005,
+   "recall": 0.9876,
+   "f1": 0.942,
+   "roc_auc": 0.9915,
+   "pr_auc": 0.865,
+   "macro_f1": 0.9686,
+   "mcc": 0.9383,
+   "balanced_acc": 0.9894
+  },
+  "missing_light_and_acoustic": {
+   "accuracy": 0.9904,
+   "precision": 0.9001,
+   "recall": 0.9803,
+   "f1": 0.9385,
+   "roc_auc": 0.9901,
+   "pr_auc": 0.8109,
+   "macro_f1": 0.9667,
+   "mcc": 0.9343,
+   "balanced_acc": 0.9858
+  },
+  "missing_light_and_env_air": {
+   "accuracy": 0.9902,
+   "precision": 0.8941,
+   "recall": 0.9858,
+   "f1": 0.9378,
+   "roc_auc": 0.9897,
+   "pr_auc": 0.8116,
+   "macro_f1": 0.9662,
+   "mcc": 0.9338,
+   "balanced_acc": 0.9882
+  }
+ }
+}

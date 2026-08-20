@@ -1,0 +1,145 @@
+{
+ "full_clean": {
+  "accuracy": 0.9869,
+  "precision": 0.8962,
+  "recall": 0.9327,
+  "f1": 0.914,
+  "roc_auc": 0.9911,
+  "pr_auc": 0.798,
+  "macro_f1": 0.9535,
+  "mcc": 0.9072,
+  "balanced_acc": 0.962
+ },
+ "gaussian_10pct": {
+  "accuracy": 0.9866,
+  "precision": 0.8957,
+  "recall": 0.9282,
+  "f1": 0.9116,
+  "roc_auc": 0.9911,
+  "pr_auc": 0.7989,
+  "macro_f1": 0.9522,
+  "mcc": 0.9046,
+  "balanced_acc": 0.9597
+ },
+ "gaussian_30pct": {
+  "accuracy": 0.9851,
+  "precision": 0.8915,
+  "recall": 0.9109,
+  "f1": 0.9011,
+  "roc_auc": 0.9909,
+  "pr_auc": 0.8008,
+  "macro_f1": 0.9465,
+  "mcc": 0.8931,
+  "balanced_acc": 0.951
+ },
+ "gaussian_50pct": {
+  "accuracy": 0.9826,
+  "precision": 0.8874,
+  "recall": 0.8788,
+  "f1": 0.8831,
+  "roc_auc": 0.9913,
+  "pr_auc": 0.8127,
+  "macro_f1": 0.9368,
+  "mcc": 0.8737,
+  "balanced_acc": 0.9349
+ },
+ "impulse_1pct": {
+  "accuracy": 0.9855,
+  "precision": 0.8948,
+  "recall": 0.9133,
+  "f1": 0.904,
+  "roc_auc": 0.991,
+  "pr_auc": 0.7986,
+  "macro_f1": 0.9481,
+  "mcc": 0.8962,
+  "balanced_acc": 0.9523
+ },
+ "impulse_5pct": {
+  "accuracy": 0.9794,
+  "precision": 0.8908,
+  "recall": 0.8249,
+  "f1": 0.8566,
+  "roc_auc": 0.9911,
+  "pr_auc": 0.8133,
+  "macro_f1": 0.9227,
+  "mcc": 0.8462,
+  "balanced_acc": 0.9084
+ },
+ "drift_0.5sigma": {
+  "accuracy": 0.9871,
+  "precision": 0.8969,
+  "recall": 0.9344,
+  "f1": 0.9153,
+  "roc_auc": 0.9909,
+  "pr_auc": 0.8067,
+  "macro_f1": 0.9541,
+  "mcc": 0.9085,
+  "balanced_acc": 0.9629
+ },
+ "drift_1.0sigma": {
+  "accuracy": 0.9872,
+  "precision": 0.8979,
+  "recall": 0.9354,
+  "f1": 0.9163,
+  "roc_auc": 0.9911,
+  "pr_auc": 0.8072,
+  "macro_f1": 0.9547,
+  "mcc": 0.9096,
+  "balanced_acc": 0.9634
+ },
+ "misalign_10s": {
+  "accuracy": 0.9869,
+  "precision": 0.8964,
+  "recall": 0.9327,
+  "f1": 0.9142,
+  "roc_auc": 0.991,
+  "pr_auc": 0.8004,
+  "macro_f1": 0.9536,
+  "mcc": 0.9073,
+  "balanced_acc": 0.962
+ },
+ "misalign_50s": {
+  "accuracy": 0.9868,
+  "precision": 0.8979,
+  "recall": 0.9289,
+  "f1": 0.9131,
+  "roc_auc": 0.9914,
+  "pr_auc": 0.811,
+  "macro_f1": 0.953,
+  "mcc": 0.9061,
+  "balanced_acc": 0.9602
+ },
+ "misalign_100s": {
+  "accuracy": 0.9866,
+  "precision": 0.8992,
+  "recall": 0.9244,
+  "f1": 0.9116,
+  "roc_auc": 0.991,
+  "pr_auc": 0.8222,
+  "macro_f1": 0.9522,
+  "mcc": 0.9045,
+  "balanced_acc": 0.958
+ },
+ "misalign_300s": {
+  "accuracy": 0.987,
+  "precision": 0.906,
+  "recall": 0.922,
+  "f1": 0.9139,
+  "roc_auc": 0.9905,
+  "pr_auc": 0.8538,
+  "macro_f1": 0.9535,
+  "mcc": 0.9069,
+  "balanced_acc": 0.9571
+ },
+ "full_block5min": {
+  "accuracy": 0.9854,
+  "precision": 0.8558,
+  "recall": 0.957,
+  "f1": 0.9036,
+  "roc_auc": 0.9723,
+  "pr_auc": 0.822,
+  "macro_f1": 0.9478,
+  "mcc": 0.8973,
+  "balanced_acc": 0.9723
+ }
+}

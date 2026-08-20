@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Data besar — sumber kanonik: Zenodo 10.5281/zenodo.20548374 (CC-BY-4.0)
+data/final_dataset_csv.csv
+data/train.csv
+data/val.csv
+data/test.csv
+data/hpdmobile/
+
+# Dokumen internal (review/evaluasi tidak untuk repo publik)
+REVIEW-MANDIRI.md
+REVIEW-EVALUATOR.md
+REPO-README.md
+
+# OS
+.DS_Store

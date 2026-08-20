@@ -1,0 +1,188 @@
+{
+ "name": "mean_impute",
+ "threshold": 0.95,
+ "best_eval_prauc": 0.5416181053645254,
+ "best_epoch": 6,
+ "eval_curve": [
+  [
+   1,
+   0.5416
+  ],
+  [
+   2,
+   0.517
+  ],
+  [
+   3,
+   0.5227
+  ],
+  [
+   4,
+   0.5136
+  ],
+  [
+   5,
+   0.5104
+  ],
+  [
+   6,
+   0.4989
+  ]
+ ],
+ "scenarios": {
+  "full": {
+   "accuracy": 0.9802,
+   "precision": 0.88,
+   "recall": 0.8505,
+   "f1": 0.865,
+   "roc_auc": 0.9801,
+   "pr_auc": 0.7845,
+   "macro_f1": 0.9271,
+   "mcc": 0.8544,
+   "balanced_acc": 0.9206
+  },
+  "missing_env_air": {
+   "accuracy": 0.9763,
+   "precision": 0.8735,
+   "recall": 0.7987,
+   "f1": 0.8344,
+   "roc_auc": 0.9721,
+   "pr_auc": 0.7802,
+   "macro_f1": 0.9108,
+   "mcc": 0.8227,
+   "balanced_acc": 0.8947
+  },
+  "missing_light": {
+   "accuracy": 0.9253,
+   "precision": 0.0,
+   "recall": 0.0,
+   "f1": 0.0,
+   "roc_auc": 0.551,
+   "pr_auc": 0.1351,
+   "macro_f1": 0.4806,
+   "mcc": 0.0,
+   "balanced_acc": 0.5
+  },
+  "missing_acoustic": {
+   "accuracy": 0.979,
+   "precision": 0.878,
+   "recall": 0.8346,
+   "f1": 0.8557,
+   "roc_auc": 0.9778,
+   "pr_auc": 0.7813,
+   "macro_f1": 0.9222,
+   "mcc": 0.8447,
+   "balanced_acc": 0.9126
+  },
+  "missing_elec_server": {
+   "accuracy": 0.9807,
+   "precision": 0.8795,
+   "recall": 0.8591,
+   "f1": 0.8692,
+   "roc_auc": 0.9788,
+   "pr_auc": 0.781,
+   "macro_f1": 0.9294,
+   "mcc": 0.8588,
+   "balanced_acc": 0.9248
+  },
+  "missing_elec_pfsense": {
+   "accuracy": 0.98,
+   "precision": 0.8788,
+   "recall": 0.8491,
+   "f1": 0.8637,
+   "roc_auc": 0.9778,
+   "pr_auc": 0.7779,
+   "macro_f1": 0.9265,
+   "mcc": 0.8531,
+   "balanced_acc": 0.9198
+  },
+  "missing_elec_socket": {
+   "accuracy": 0.9903,
+   "precision": 0.8892,
+   "recall": 0.9945,
+   "f1": 0.9389,
+   "roc_auc": 0.9942,
+   "pr_auc": 0.8959,
+   "macro_f1": 0.9668,
+   "mcc": 0.9354,
+   "balanced_acc": 0.9922
+  },
+  "missing_device_state": {
+   "accuracy": 0.9688,
+   "precision": 0.859,
+   "recall": 0.6965,
+   "f1": 0.7693,
+   "roc_auc": 0.975,
+   "pr_auc": 0.7811,
+   "macro_f1": 0.8763,
+   "mcc": 0.7575,
+   "balanced_acc": 0.8436
+  },
+  "random_dropout_10pct": {
+   "accuracy": 0.9706,
+   "precision": 0.8804,
+   "recall": 0.7017,
+   "f1": 0.7809,
+   "roc_auc": 0.9739,
+   "pr_auc": 0.7983,
+   "macro_f1": 0.8826,
+   "mcc": 0.7711,
+   "balanced_acc": 0.847
+  },
+  "random_dropout_30pct": {
+   "accuracy": 0.954,
+   "precision": 0.8752,
+   "recall": 0.4479,
+   "f1": 0.5925,
+   "roc_auc": 0.9409,
+   "pr_auc": 0.7747,
+   "macro_f1": 0.7841,
+   "mcc": 0.607,
+   "balanced_acc": 0.7214
+  },
+  "random_dropout_50pct": {
+   "accuracy": 0.9404,
+   "precision": 0.8564,
+   "recall": 0.2431,
+   "f1": 0.3787,
+   "roc_auc": 0.8865,
+   "pr_auc": 0.6999,
+   "macro_f1": 0.6737,
+   "mcc": 0.4376,
+   "balanced_acc": 0.6199
+  },
+  "random_dropout_70pct": {
+   "accuracy": 0.9305,
+   "precision": 0.8268,
+   "recall": 0.0874,
+   "f1": 0.158,
+   "roc_auc": 0.8259,
+   "pr_auc": 0.6262,
+   "macro_f1": 0.5609,
+   "mcc": 0.2552,
+   "balanced_acc": 0.5429
+  },
+  "missing_light_and_acoustic": {
+   "accuracy": 0.9253,
+   "precision": 0.0,
+   "recall": 0.0,
+   "f1": 0.0,
+   "roc_auc": 0.5175,
+   "pr_auc": 0.1279,
+   "macro_f1": 0.4806,
+   "mcc": 0.0,
+   "balanced_acc": 0.5
+  },
+  "missing_light_and_env_air": {
+   "accuracy": 0.9253,
+   "precision": 0.0,
+   "recall": 0.0,
+   "f1": 0.0,
+   "roc_auc": 0.3522,
+   "pr_auc": 0.1041,
+   "macro_f1": 0.4806,
+   "mcc": 0.0,
+   "balanced_acc": 0.5
+  }
+ }
+}

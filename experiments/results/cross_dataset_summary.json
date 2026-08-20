@@ -1,0 +1,124 @@
+{
+ "H1": {
+  "rows": 257845,
+  "eval_rows": 249205,
+  "occupied_pct": 82.19,
+  "natural_missing_frac": 0.0421,
+  "base": {
+   "accuracy": 0.1833,
+   "precision": 0.6275,
+   "recall": 0.0156,
+   "f1": 0.0304,
+   "roc_auc": 0.3741,
+   "pr_auc": 0.767,
+   "macro_f1": 0.1625,
+   "mcc": -0.0733,
+   "balanced_acc": 0.4865
+  },
+  "missaware": {
+   "accuracy": 0.3635,
+   "precision": 0.747,
+   "recall": 0.3411,
+   "f1": 0.4683,
+   "roc_auc": 0.329,
+   "pr_auc": 0.7495,
+   "macro_f1": 0.3378,
+   "mcc": -0.1517,
+   "balanced_acc": 0.404
+  },
+  "blend": {
+   "accuracy": 0.1926,
+   "precision": 0.6705,
+   "recall": 0.0348,
+   "f1": 0.0661,
+   "roc_auc": 0.3749,
+   "pr_auc": 0.7655,
+   "macro_f1": 0.1775,
+   "mcc": -0.0835,
+   "balanced_acc": 0.478
+  },
+  "finetuned_1day": {
+   "accuracy": 0.7496,
+   "precision": 0.8353,
+   "recall": 0.8661,
+   "f1": 0.8504,
+   "roc_auc": 0.4839,
+   "pr_auc": 0.8199,
+   "macro_f1": 0.5415,
+   "mcc": 0.0851,
+   "balanced_acc": 0.5395
+  },
+  "majority_baseline": {
+   "accuracy": 0.1781,
+   "precision": 0.0,
+   "recall": 0.0,
+   "f1": 0.0,
+   "roc_auc": 0.5,
+   "pr_auc": 0.8219,
+   "macro_f1": 0.1512,
+   "mcc": 0.0,
+   "balanced_acc": 0.5
+  }
+ },
+ "H2": {
+  "rows": 146880,
+  "eval_rows": 138240,
+  "occupied_pct": 60.41,
+  "natural_missing_frac": 0.0497,
+  "base": {
+   "accuracy": 0.3936,
+   "precision": 0.3422,
+   "recall": 0.0041,
+   "f1": 0.0081,
+   "roc_auc": 0.5123,
+   "pr_auc": 0.5975,
+   "macro_f1": 0.2857,
+   "mcc": -0.0456,
+   "balanced_acc": 0.4961
+  },
+  "missaware": {
+   "accuracy": 0.4241,
+   "precision": 0.5355,
+   "recall": 0.3512,
+   "f1": 0.4242,
+   "roc_auc": 0.4786,
+   "pr_auc": 0.5593,
+   "macro_f1": 0.4241,
+   "mcc": -0.1136,
+   "balanced_acc": 0.4432
+  },
+  "blend": {
+   "accuracy": 0.3956,
+   "precision": 0.4932,
+   "recall": 0.0203,
+   "f1": 0.0391,
+   "roc_auc": 0.5116,
+   "pr_auc": 0.5969,
+   "macro_f1": 0.2991,
+   "mcc": -0.0363,
+   "balanced_acc": 0.4942
+  },
+  "finetuned_1day": {
+   "accuracy": 0.5298,
+   "precision": 0.5621,
+   "recall": 0.8719,
+   "f1": 0.6835,
+   "roc_auc": 0.4783,
+   "pr_auc": 0.6393,
+   "macro_f1": 0.3846,
+   "mcc": -0.1257,
+   "balanced_acc": 0.4623
+  },
+  "majority_baseline": {
+   "accuracy": 0.3959,
+   "precision": 0.0,
+   "recall": 0.0,
+   "f1": 0.0,
+   "roc_auc": 0.5,
+   "pr_auc": 0.6041,
+   "macro_f1": 0.2836,
+   "mcc": 0.0,
+   "balanced_acc": 0.5
+  }
+ }
+}

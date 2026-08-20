@@ -1,0 +1,255 @@
+{
+ "xgb_full": {
+  "metrics": {
+   "accuracy": 0.9666,
+   "precision": 0.8755,
+   "recall": 0.6436,
+   "f1": 0.7419,
+   "roc_auc": 0.989,
+   "pr_auc": 0.8484,
+   "macro_f1": 0.862,
+   "mcc": 0.7343,
+   "balanced_acc": 0.8181
+  },
+  "best_iter": 8,
+  "features": [
+   "co2",
+   "humidity",
+   "temperature_1",
+   "temperature_2",
+   "lux_1",
+   "lux_2",
+   "sound",
+   "server_cur_current",
+   "server_cur_power",
+   "server_cur_voltage",
+   "pfsense_cur_current",
+   "pfsense_cur_power",
+   "pfsense_cur_voltage",
+   "socket_cur_current",
+   "socket_cur_power",
+   "socket_cur_voltage",
+   "lamp_switch_led",
+   "switch_channel_1",
+   "switch_channel_2",
+   "switch_channel_3",
+   "hour_sin",
+   "hour_cos",
+   "weekend"
+  ],
+  "metrics_block5min": {
+   "accuracy": 0.9684,
+   "precision": 0.8714,
+   "recall": 0.6559,
+   "f1": 0.7485,
+   "roc_auc": 0.8242,
+   "pr_auc": 0.5963,
+   "macro_f1": 0.8658,
+   "mcc": 0.7404,
+   "balanced_acc": 0.8242
+  }
+ },
+ "rf_full": {
+  "metrics": {
+   "accuracy": 0.9283,
+   "precision": 0.9597,
+   "recall": 0.0411,
+   "f1": 0.0788,
+   "roc_auc": 0.9784,
+   "pr_auc": 0.74,
+   "macro_f1": 0.5207,
+   "mcc": 0.1907,
+   "balanced_acc": 0.5205
+  },
+  "best_iter": null,
+  "features": [
+   "co2",
+   "humidity",
+   "temperature_1",
+   "temperature_2",
+   "lux_1",
+   "lux_2",
+   "sound",
+   "server_cur_current",
+   "server_cur_power",
+   "server_cur_voltage",
+   "pfsense_cur_current",
+   "pfsense_cur_power",
+   "pfsense_cur_voltage",
+   "socket_cur_current",
+   "socket_cur_power",
+   "socket_cur_voltage",
+   "lamp_switch_led",
+   "switch_channel_1",
+   "switch_channel_2",
+   "switch_channel_3",
+   "hour_sin",
+   "hour_cos",
+   "weekend"
+  ],
+  "metrics_block5min": {
+   "accuracy": 0.9306,
+   "precision": 1.0,
+   "recall": 0.0323,
+   "f1": 0.0625,
+   "roc_auc": 0.5161,
+   "pr_auc": 0.1016,
+   "macro_f1": 0.5132,
+   "mcc": 0.1732,
+   "balanced_acc": 0.5161
+  }
+ },
+ "xgb_env_air": {
+  "metrics": {
+   "accuracy": 0.812,
+   "precision": 0.215,
+   "recall": 0.5725,
+   "f1": 0.3126,
+   "roc_auc": 0.7371,
+   "pr_auc": 0.1879,
+   "macro_f1": 0.6018,
+   "mcc": 0.2659,
+   "balanced_acc": 0.7019
+  },
+  "best_iter": 0,
+  "features": [
+   "co2",
+   "humidity",
+   "temperature_1",
+   "temperature_2",
+   "hour_sin",
+   "hour_cos",
+   "weekend"
+  ]
+ },
+ "xgb_light": {
+  "metrics": {
+   "accuracy": 0.9752,
+   "precision": 0.8609,
+   "recall": 0.797,
+   "f1": 0.8277,
+   "roc_auc": 0.9463,
+   "pr_auc": 0.7996,
+   "macro_f1": 0.9072,
+   "mcc": 0.8151,
+   "balanced_acc": 0.8933
+  },
+  "best_iter": 6,
+  "features": [
+   "lux_1",
+   "lux_2",
+   "hour_sin",
+   "hour_cos",
+   "weekend"
+  ]
+ },
+ "xgb_acoustic": {
+  "metrics": {
+   "accuracy": 0.7212,
+   "precision": 0.1375,
+   "recall": 0.5183,
+   "f1": 0.2173,
+   "roc_auc": 0.729,
+   "pr_auc": 0.129,
+   "macro_f1": 0.5239,
+   "mcc": 0.1496,
+   "balanced_acc": 0.628
+  },
+  "best_iter": 3,
+  "features": [
+   "sound",
+   "hour_sin",
+   "hour_cos",
+   "weekend"
+  ]
+ },
+ "xgb_elec_server": {
+  "metrics": {
+   "accuracy": 0.7463,
+   "precision": 0.1091,
+   "recall": 0.3346,
+   "f1": 0.1645,
+   "roc_auc": 0.7,
+   "pr_auc": 0.1149,
+   "macro_f1": 0.5075,
+   "mcc": 0.0714,
+   "balanced_acc": 0.557
+  },
+  "best_iter": 4,
+  "features": [
+   "server_cur_current",
+   "server_cur_power",
+   "server_cur_voltage",
+   "hour_sin",
+   "hour_cos",
+   "weekend"
+  ]
+ },
+ "xgb_elec_pfsense": {
+  "metrics": {
+   "accuracy": 0.745,
+   "precision": 0.0831,
+   "recall": 0.2407,
+   "f1": 0.1235,
+   "roc_auc": 0.7154,
+   "pr_auc": 0.126,
+   "macro_f1": 0.4871,
+   "mcc": 0.0168,
+   "balanced_acc": 0.5132
+  },
+  "best_iter": 1,
+  "features": [
+   "pfsense_cur_current",
+   "pfsense_cur_power",
+   "pfsense_cur_voltage",
+   "hour_sin",
+   "hour_cos",
+   "weekend"
+  ]
+ },
+ "xgb_elec_socket": {
+  "metrics": {
+   "accuracy": 0.8056,
+   "precision": 0.1513,
+   "recall": 0.3477,
+   "f1": 0.2108,
+   "roc_auc": 0.8278,
+   "pr_auc": 0.1756,
+   "macro_f1": 0.55,
+   "mcc": 0.1327,
+   "balanced_acc": 0.5952
+  },
+  "best_iter": 58,
+  "features": [
+   "socket_cur_current",
+   "socket_cur_power",
+   "socket_cur_voltage",
+   "hour_sin",
+   "hour_cos",
+   "weekend"
+  ]
+ },
+ "xgb_device_state": {
+  "metrics": {
+   "accuracy": 0.9637,
+   "precision": 0.7961,
+   "recall": 0.6903,
+   "f1": 0.7394,
+   "roc_auc": 0.9082,
+   "pr_auc": 0.6627,
+   "macro_f1": 0.8599,
+   "mcc": 0.7221,
+   "balanced_acc": 0.838
+  },
+  "best_iter": 0,
+  "features": [
+   "lamp_switch_led",
+   "switch_channel_1",
+   "switch_channel_2",
+   "switch_channel_3",
+   "hour_sin",
+   "hour_cos",
+   "weekend"
+  ]
+ }
+}

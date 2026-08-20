@@ -1,0 +1,22 @@
+{
+ "seed": 42,
+ "include_anomaly_day": true,
+ "n_days": 31,
+ "train_days": 25,
+ "test_days": 6,
+ "test_days_list": [
+  "2023-12-04",
+  "2023-12-07",
+  "2023-12-12",
+  "2024-01-06",
+  "2024-01-08",
+  "2024-01-12"
+ ],
+ "rows_train": 192191,
+ "rows_test": 38785,
+ "occupied_pct_train": 1.748,
+ "occupied_pct_test": 7.467,
+ "occupied_rows_train": 3359,
+ "occupied_rows_test": 2896,
+ "anomaly_day_excluded": null
+}
