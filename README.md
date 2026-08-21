@@ -1,10 +1,9 @@
-# Robust Multimodal IoT Occupancy Detection Under Sensor Failure
+# Robust Multimodal Occupancy Detection Under Sensor Failure
 
-Cross-modal attention + contrastive learning + missing-modality augmentation
-for occupancy detection robust to sensor failure.
+Cross-modal attention + missing-modality augmentation for occupancy detection robust to sensor failure.
 
-**Paper (draf):** Robust Multimodal IoT Intelligence Under Sensor Failure:
-Cross-Modal Attention and Contrastive Learning for Occupancy Detection
+**Paper (draf):** Robust Multimodal Occupancy Detection Under Sensor Failure:
+Cross-Modal Attention with Missing-Modality Augmentation
 *(target: Scopus Q1 — Energy and Buildings / Building and Environment)*
 
 ## Ringkasan
