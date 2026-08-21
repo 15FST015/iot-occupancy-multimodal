@@ -37,7 +37,7 @@ privacy statement).
 
 ## Manuscript Overview (Structure & Content) — FAKTA dari naskah
 
-**Title & Authors:** "Robust Multimodal IoT Intelligence Under Sensor Failure: Cross-Modal Attention and Contrastive Learning for Occupancy Detection" — Amesanggeng Pataropura, Universitas Buddhi Dharma (ORCID 0009-0007-4950-0769). 16 kata (dalam batas wajar; catatan evaluator: "Intelligence" berpotensi overclaim — opsional dipangkas saat format).
+**Title & Authors:** "Robust Multimodal Occupancy Detection Under Sensor Failure: Cross-Modal Attention with Missing-Modality Augmentation" — Amesanggeng Pataropura, Universitas Buddhi Dharma (ORCID 0009-0007-4950-0769). 13 kata (revisi 21/08: "Intelligence" dihapus — anti-overclaim; "Contrastive Learning" diganti "Missing-Modality Augmentation" — komponen terbukti paling kritis; contrastive tetap dibahas di abstrak/keywords).
 
 **Abstract & Keywords:** 192 kata (≤200 batas E&B) — konteks (sensor failure menghambat occupancy-driven energy management), metode (encoder per-modalitas + masked attention + augmentasi + contrastive), hasil kunci (PR-AUC 0.824 healthy / 0.887 saat light hilang; menang 14/14 vs 3 baseline SOTA), kalibrasi (ECE 0.055), batas generalisasi (domain-shift dianalisis). 7 keywords.
 

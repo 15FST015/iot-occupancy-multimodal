@@ -13,7 +13,7 @@ Energy and Buildings (Elsevier)
 
 Dear Editor,
 
-We are pleased to submit our original research article entitled **"Robust Multimodal IoT Intelligence Under Sensor Failure: Cross-Modal Attention and Contrastive Learning for Occupancy Detection"** for consideration for publication in *Energy and Buildings*.
+We are pleased to submit our original research article entitled **"Robust Multimodal Occupancy Detection Under Sensor Failure: Cross-Modal Attention with Missing-Modality Augmentation"** for consideration for publication in *Energy and Buildings*.
 
 **Relevance to the journal.** Occupancy detection is a cornerstone of building energy management (demand-controlled ventilation, HVAC scheduling, and lighting control). Yet real deployments consistently suffer from sensor failures — a single failed light sensor can collapse an occupancy model (F1 drops from 0.82 to 0.16 for a standard XGBoost baseline in our study). Our work directly addresses this reliability gap that limits the practical deployment of occupancy-driven energy savings.
 
